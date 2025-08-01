@@ -17,7 +17,6 @@ cars_ms = Select(cars_element)
 time.sleep(2)
 
 # selecting options
-
 cars_ms.select_by_index(1)
 time.sleep(1)
 
@@ -28,7 +27,6 @@ cars_ms.select_by_visible_text("Audi")
 time.sleep(1)
 
 # deselecting options
-
 cars_ms.deselect_by_index(2)
 time.sleep(1)
 
